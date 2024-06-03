@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Level1
+title: Level 1 - Introduction To Python and Data Analytics
 nav_order: 5
 has_children: true
-permalink: /level1
+permalink: /level-1
 ---
 
 ### Level 1 - Introduction To Python and Data Analytics
