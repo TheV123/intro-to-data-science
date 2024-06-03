@@ -37,6 +37,7 @@ Students will learn about fundamental concepts in Python and Data Analytics and 
   * Interactive charts in Plotly
   * Animated plots and frames
   * Visualizing data at scale
+
 ### Level 3 - OOP, SQL and Colloborative Tools
 * **Object Oriented Programming**
   * Introduction to Classes and Objects
@@ -47,11 +48,15 @@ Students will learn about fundamental concepts in Python and Data Analytics and 
 * **Git**
   * Basics of source control, version control, and collaboration
   * Licensing and maintaining a repository
+
 ### Level 4 - Introduction To Machine Learning
 * TBD
+
 ### Level 5 - Web Applications in Data Science
 * TBD
+
 ### Level 6 - Data Science In the Cloud
 * TBD
+
 ### Level 7 - Data Science Project
 * TBD

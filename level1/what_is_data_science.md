@@ -1,8 +1,8 @@
 ---
 layout: page
-title:  "Session 1"
+title:  "What Is Data Science?"
 parent: "Level 1 - Introduction To Python and Data Analytics"
-nav_order: 1
+nav_order: 2
 ---
 
-# Session 1
+# What Is Data Science?

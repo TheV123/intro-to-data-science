@@ -1,8 +1,8 @@
 ---
 layout: page
-title:  "Session 2"
+title:  "What Is Python?"
 parent: "Level 1 - Introduction To Python and Data Analytics"
-nav_order: 2
+nav_order: 1
 ---
 
-# Session 2
+# What Is Python?
