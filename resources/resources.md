@@ -6,4 +6,4 @@ has_children: true
 permalink: /resources
 ---
 
-### Resources
+# Resources

@@ -6,4 +6,4 @@ has_children: true
 permalink: /level-1
 ---
 
-### Level 1 - Introduction To Python and Data Analytics
+# Level 1 - Introduction To Python and Data Analytics
