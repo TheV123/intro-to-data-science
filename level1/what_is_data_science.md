@@ -5,7 +5,7 @@ parent: "Level 1 - Introduction To Python and Data Analytics"
 nav_order: 2
 ---
 
-## What is Python?
+## What is Data Science?
 
 Data science is the [`study of data to extract meaningful insights for buisnesses`](https://aws.amazon.com/what-is/data-science/). It uses mathematics, statistics, programming, buisness, and engineering to gather, analyze, interpret, visualize, and predict data
 
