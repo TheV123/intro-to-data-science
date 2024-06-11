@@ -54,6 +54,9 @@ Python is known for its versatility and is used in a wide range of applications 
 
 7. **Finance**: Python is used in the finance industry for quantitative analysis, algorithmic trading, and financial modeling due to its ability to handle large datasets and perform complex calculations
 
+8. **Cybersecurity**: Python's automation tools and helpful libraries are useful in many cybersecurity applications such as malware analysis, binary exploitation, network/port scanning, etc...
+
+
 For more detailed information on Python's applications, you can visit the [GeeksforGeeks article on Python applications](https://www.geeksforgeeks.org/what-is-python/).
 
 If you want to learn more about automation in Python check out [Automate The Boring Stuff](https://automatetheboringstuff.com/#toc)
