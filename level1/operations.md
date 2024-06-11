@@ -7,6 +7,21 @@ nav_order: 4
 
 # Operations
 
+## Arithmetic Operations
+
+Arithmetic operations are used to perform common mathematical calculations. Python supports several arithmetic operators:
+
+| Operation     | Symbol | Description                        |
+|---------------|--------|------------------------------------|
+| Addition      | `+`    | Adds two operands                  |
+| Subtraction   | `-`    | Subtracts the second operand from the first |
+| Multiplication| `*`    | Multiplies two operands            |
+| Division      | `/`    | Divides the first operand by the second (floating-point result) |
+| Floor Division| `//`   | Divides the first operand by the second (integer result) |
+| Modulus       | `%`    | Returns the remainder of the division |
+| Exponentiation| `**`   | Raises the first operand to the power of the second |
+
+
 ## Assignment Operations
 
 Assignment operations are used to assign values to variables
@@ -18,9 +33,8 @@ Assignment operations are used to assign values to variables
 | Subtract and Assign | `-=`   | Subtracts and assigns the result   |
 | Multiply and Assign | `*=`   | Multiplies and assigns the result  |
 | Divide and Assign   | `/=`   | Divides and assigns the result     |
-| Floor Divide and Assign | `//=` | Floor divides and assigns the result |
-| Modulus and Assign  | `%=`   | Takes modulus and assigns the result |
-| Exponentiate and Assign | `**=` | Raises to power and assigns the result |
+
+Other assignment operations such as `%=` exist is python but are not commonly used
 
 ## Comparison Operations
 
@@ -41,9 +55,9 @@ Logical operations are used to combine conditional statements
 
 | Operation           | Symbol | Description                        |
 |---------------------|--------|------------------------------------|
-| Logical AND         | `and`  | Returns True if both statements are true |
-| Logical OR          | `or`   | Returns True if one of the statements is true |
-| Logical NOT         | `not`  | Reverses the result, returns False if the result is true |
+| Logical AND         | `and`  | Returns `True` if both statements are true |
+| Logical OR          | `or`   | Returns `True` if one of the statements is true |
+| Logical NOT         | `not`  | Reverses the boolean value - returns `False` if the result is true or `True` if the result is false |
 
 ## Bitwise Operations
 

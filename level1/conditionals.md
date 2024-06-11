@@ -2,7 +2,7 @@
 layout: page
 title:  "Conditionals"
 parent: "Level 1 - Introduction To Python and Data Analytics"
-nav_order: 4
+nav_order: 5
 ---
 
 ## Introduction
