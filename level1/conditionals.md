@@ -13,8 +13,6 @@ Conditional statements in Python allow you to execute certain pieces of code bas
 
 The `if` statement is used to test a condition. If the condition evaluates to `True`, the block of code inside the `if` statement is executed. If the condition evaluates to `False`, the block of code is skipped.
 
-Syntax:
-
 ```python
 if (boolean expression):
     #code block
@@ -37,8 +35,6 @@ In this example, the condition `number > 0` evaluates to `True`, so the code blo
 ## The `else` Statement
 
 The `else` statement is used to execute a block of code if the condition in the `if` statement evaluates to `False`. If the `if` statement evaluates to `True`, the `else` statement is skipped
-
-Syntax:
 
 ```python
 if (boolean expression):
@@ -65,8 +61,6 @@ In this example, the condition `number > 0` evaluates to `False`, so the code bl
 
 ### The `elif` Statement
 The `elif` statement (`else if` in most other programming languages) is used to check multiple conditions. If the condition for `if` is `False`, it checks the condition of the next `elif` block and so on. If all the conditions are `False`, the `else` block is executed.
-
-Syntax:
 
 ```python
 if (boolean expression):

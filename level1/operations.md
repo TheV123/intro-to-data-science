@@ -5,8 +5,6 @@ parent: "Level 1 - Introduction To Python and Data Analytics"
 nav_order: 4
 ---
 
-# Operations
-
 ## Arithmetic Operations
 
 Arithmetic operations are used to perform common mathematical calculations. Python supports several arithmetic operators:

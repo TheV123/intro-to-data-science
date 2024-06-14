@@ -5,8 +5,6 @@ parent: "Level 1 - Introduction To Python and Data Analytics"
 nav_order: 3
 ---
 
-# Variables And Data Types
-
 ## Variables in Python
 A variable in Python is a name that refers to a memory location where data is stored. Unlike some other programming languages, Python does not require explicit declaration of variables. A variable is created the moment you first assign a value to it.
 
