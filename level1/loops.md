@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Variables And Data Types"
+title:  "Loops"
 parent: "Level 1 - Introduction To Python and Data Analytics"
 nav_order: 6
 ---
