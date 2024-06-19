@@ -144,3 +144,8 @@ print(large_num(False, True)) #CRASH!!
 ```
 
 This still causes a crash when `large_num` is called with improper arguments as Python does not enforce `type checking` (more updates are being added to Python to improve this feature). However, it is a good tool to have to help programmers understand the intended behavior of a function
+
+### Helpful References
+* [Python Official Documentation on Functions](https://docs.python.org/3/tutorial/controlflow.html#defining-functions)
+* [PEP 484 - Type Hints](https://peps.python.org/pep-0484/)
+* [W3Schools - Python Functions](https://www.w3schools.com/python/python_functions.asp)
