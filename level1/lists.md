@@ -134,3 +134,7 @@ for row in matrix:
         print(element, end=" ")
     print()
 ```
+
+### Helpful References
+* [Geeks For Geeks - Lists](https://www.geeksforgeeks.org/python-lists/)
+* [Google Developers - Python Lists](https://developers.google.com/edu/python/lists)
