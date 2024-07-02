@@ -15,7 +15,7 @@ Pyhon lists are great - they offer dynamic types, resize automatically, and have
 
 ### Installing & Importing Numpy
 
-To use NumPy, you need to install it first. You can install NumPy using `pip` (Python Package Index)
+To use NumPy, you need to install it first. You can install NumPy using `pip`
 ``` bash
 pip install numpy
 pip show numpy
