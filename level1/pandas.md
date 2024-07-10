@@ -110,6 +110,23 @@ df['Population Density'] = df['Population'] / df['Area (sq. mi.)']
 bottom_5_density = df.nsmallest(5, 'Population Density')
 ```
 
+### Correlation
+Pandas also offers some functions to help find the `correlation` between multiple columns of a dataframe. Correlation values near `0` indicate little to no linear correlation while correlation values near `1` or `-1` indicate a strong positive or a strong negative correlation
+
+```python
+correlation_between_population_density_and_gdp = df['Population Density'].corr(df['GDP ($ per capita)'])
+print(correlation_between_population_density_and_gdp)
+```
+
+You can also create a correlation matrix by passing in multiple columns into corr - this is helpful for getting a comprehesive view of data correlation and will be useful later on for data visualization
+
+```python
+correlation_matrix = df[['Population', 'GDP ($ per capita)', 'Literacy (%)', 'Agriculture', 'Industry']].corr()
+print("\nCorrelation Matrix:")
+print(correlation_matrix)
+```
+
+
 ### Helpful References
 * [Pandas Official Documentation](https://pandas.pydata.org/docs/)
 * [10 Minutes to Pandas](https://pandas.pydata.org/docs/user_guide/10min.html)

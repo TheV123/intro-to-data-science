@@ -21,6 +21,7 @@ Students will learn about fundamental concepts in Python and Data Analytics and 
   * Introduction to Variables and Data Types
   * Introduction to Conditional Statements
   * Introduction to Loops
+  * Introduction to Lists and Arrays
   * Introduction to Functional Programming 
 * **Basics of Data Analytics**
   * What is Data science and what is the impact of data driven decisions
@@ -29,7 +30,6 @@ Students will learn about fundamental concepts in Python and Data Analytics and 
 
 ### Level 2 - Data Visualization Techniques
 * **Advanced Data Types**
-  * List Comprehension
   * Strings
   * Dictionaries (Objects) & JSON
 * **Data Visualization**
