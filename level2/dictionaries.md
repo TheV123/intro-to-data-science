@@ -108,6 +108,7 @@ Output
 
 
 ### Helpful Dictionary Methods
+
 | Method                          | Description                                                                                                |
 | ------------------------------- | ---------------------------------------------------------------------------------------------------------- |
 | `dict.clear()`                  | Removes all elements from the dictionary                                                                   |
@@ -127,6 +128,7 @@ Output
 Pandas dataframes are closely related to dictionaries with a column representing each key of the dictionary
 
 For example, this dataframe (represented via the table) can be represented using a dictionary
+
 | Name    | Age | City          |
 | ------- | --- | ------------- |
 | Alice   | 30  | New York      |
