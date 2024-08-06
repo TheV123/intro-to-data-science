@@ -5,7 +5,7 @@ parent: "Level 1 - Introduction To Python and Data Analytics"
 nav_order: 7
 ---
 
-## Introduction
+## Functions
 
 Functional programming is a programming paradigm that involves breaking down a problem into simple, modular pieces in order to solve it. It is a programming `paradigm` (or model) that treats a computational problem as the evaluation of mathematical functions that take inputs, produce outputs, and **ideally** don't change state
 

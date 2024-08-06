@@ -5,7 +5,7 @@ parent: "Level 1 - Introduction To Python and Data Analytics"
 nav_order: 5
 ---
 
-## Introduction
+## Conditionals
 
 Conditional statements in Python allow you to execute certain pieces of code based boolean values (`True` and `False`). These statements are fundamental for controlling the flow of a program and directing the execution of code to blocks where you want to handle certain logic. The primary conditional statements in Python are `if`, `elif`, and `else`.
 

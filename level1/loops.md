@@ -5,7 +5,7 @@ parent: "Level 1 - Introduction To Python and Data Analytics"
 nav_order: 6
 ---
 
-## Introduction
+## Loops
 
 Loops are a fundamental concept in programming that allow you to execute a block of code repeatedly. Python provides two primary types of loops: the `while` loop and the `for` loop.
 

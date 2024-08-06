@@ -5,7 +5,7 @@ parent: "Level 1 - Introduction To Python and Data Analytics"
 nav_order: 8
 ---
 
-## Introduction
+## Lists
 
 Lists are one of the most versatile data types available in Python. They allow you to store multiple items in a single variable and can contain elements of different data types. Lists are based off of `arrays` which are defined as a data structure consisting of a collection of elements (values or variables), each identified by at least one array index or key. While Python does not have built in support for arrays, the data science `modules` we will use later on in this course will utilize them
 

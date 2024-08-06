@@ -5,7 +5,7 @@ parent: "Level 2 - Data Visualization Techniques"
 nav_order: 1
 ---
 
-## Introduction
+## Dictionaries
 
 Dictonaries, also called `objects` (Javascript) and `Hashsets` (Java) are data structures capable of storing data with complex relationships. It is the backbone of most complex data operations and can be used in conjunction with `dataframes` and `JSON` data. Dictionaries operate using a key value pair, where the key is used to access the value.
 

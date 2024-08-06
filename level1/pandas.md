@@ -5,7 +5,7 @@ parent: "Level 1 - Introduction To Python and Data Analytics"
 nav_order: 10
 ---
 
-## Introduction
+## Intro To Pandas
 
 Pandas is a powerful library for data manipulation and analysis. It provides data scientists with high-performance, easy-to-use data structures and tools for working with structured data. It is one the main tools in a data scientist's toolbelt when handling with large amounts of data.
 
