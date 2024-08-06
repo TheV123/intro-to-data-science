@@ -16,5 +16,6 @@ Students will learn about fundamental concepts for data preprocessing and data v
 * **Data Visualization**
   * Cleaning data to be visualized
   * How to tell a story with charts
-  * Animated charts
-  * Visualizing data at scale
+  * Animated charts using Plotly
+    * Exporting charts to different types of data
+  * Visualizing data at scale - ensuring speed when dealing with data using thousands of rows
