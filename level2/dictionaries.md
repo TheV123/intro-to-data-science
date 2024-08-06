@@ -1,7 +1,7 @@
 ---
 layout: page
-title:  "Lists"
-parent: "Level 2 - IData Visualization Techniques"
+title:  "Dictionaries"
+parent: "Level 2 - Data Visualization Techniques"
 nav_order: 1
 ---
 
