@@ -15,8 +15,8 @@ Strings are a common data type used store in text, numeric, and symbol values. T
 smiley = "😀"
 laugh = "😂"
 
-print(text) #Output: 😀
-print(smiley) #Output: 😂
+print(smiley) #Output: 😀
+print(laugh) #Output: 😂
 
 ```
 
