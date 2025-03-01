@@ -9,14 +9,12 @@ This course is designed to encourage students to explore and learn after their l
 If you are interested in receiving instructor guidance and virtual lessons on this course, please contact me for additional details
 
 ## About The Instructor
-I am a student at the University of Virginia with a BS. in Computer Science with a Minor in Data Science and Focal Path in Cybersecurity. I have experience in Software Development through internships, projects, and won the Best Beginner Award in HooHacks 2024. I also have research experience in Data Science and Machine Learning on Earthquakes Analysis and Modeling. I have also been a tutor teaching Scratch, Python, Java, and Javascript for 4+ years and have experience in curriculum design
+I am a student at the University of Virginia with a BS. in Computer Science with a Minor in Data Science and Focal Path in Cybersecurity. I have experience in Software Development through internships, projects, and won the Best Beginner Award in HooHacks 2024. I also have research experience in Data Science and Machine Learning on Earthquakes Analysis and Modeling and also in fine-tuning LLMs for Cybersecurity. I have also been a tutor teaching Scratch, Python, Java, and Javascript for 5+ years and have experience in curriculum design
 
 * **Instructor:** Vishal Kamalakrishnan
 * **Email**: vishkamalk@gmail.com
-* **Links To Research:**
-  * https://thev123.github.io/EarthquakeHistoricalDataAnalysis/intro.html
-  * https://capstone-2024-website.onrender.com/
-*  **Link To Github:** https://github.com/TheV123/
+* **Github:** [https://github.com/TheV123/](https://github.com/TheV123/)
+* **LinkedIn:** [https://www.linkedin.com/in/vishalkamalakrishnan/](https://www.linkedin.com/in/vishalkamalakrishnan/)
 
 ## License Information
 It is my personal philisophy that learning should be available to all those who want to seek it. As such, all material of this course presented on this website is available for anyone to use and learn from. If you plan on using this material, I would appreciate if you can credit this website and the course repository

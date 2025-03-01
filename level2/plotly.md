@@ -115,9 +115,100 @@ fig.update_layout(
 
 ```
 
+### Plotly Chart Examples
+
+`px.data` has several datasets that are built to demonstrate plotly's capabilities. These datasets have been cleaned and are easy to animate
+
+```python
+df = px.data.gapminder()
+df_2007 = df[df['year'] == 2007]
+
+```
+
+Choropleth plots are used to visualize data in a map or grid basis using colors to show values. The colorscheme can be modified using the `color_continious_scale` (for numeric data) or `color_discrete_scale` (for categorical data) parameters
+
+```python
+choropleth_plot = px.choropleth(df_2007,
+                         locations='iso_alpha',
+                         color='lifeExp',
+                         hover_name='country',
+                         title='Life Expectancy by Country in 2007',
+                         color_continuous_scale=px.colors.sequential.Plasma)
+choropleth_plot.show()
+```
+
+Scatter plots can be used to showcase many features of a dataset - the size of the dots as well as their color can be modified as well as data on the x and y axis. The `size` parameter can be used to variably scale the size depending on the value of a feature. The `color` parameter can be used to assign a color to a dot based on a category or value.  
+
+```python
+scatter_plot = px.scatter(df_2007, x='gdpPercap', y='lifeExp', size='pop', color='continent', hover_name='country', log_x=True, size_max=60)
+
+scatter_plot.update_layout(
+    xaxis_title='GDP Per Capita (Logarithmic)',
+    yaxis_title="Life Expectancy (years)"
+)
+scatter_plot.show()
+```
+
+### Animated Plots
+
+Plots using data from `px.data` can be animated easily by providing an `animation_frame` argument. A slider will be automatically created for animated plots but can be modified in the `update_menu` parameter in the `update_layout` function. 
+
+```python
+animated_plot = px.scatter(df, x='gdpPercap', y='lifeExp', size='pop', color='continent', hover_name='country', log_x=True, size_max=60, animation_frame='year', animation_group='country', range_x=[200, 100000], range_y=[25, 90])
+
+animated_plot.update_layout(
+    title="GDP Per Capita vs Life Expectancy Over Time",
+    xaxis_title='GDP Per Capita (Logarithmic)',
+    yaxis_title="Life Expectancy (years)"
+)
+animated_plot.show()
+```
+
+For external dataframes, individual frames of data need to be added to be animated on. 
+
+```python
+import plotly.graph_objects as go
+import numpy as np
+
+# Generate sample data
+x = np.linspace(0, 10, 100)
+y = np.sin(x)
+
+fig = go.Figure(
+    data=[go.Scatter(x=x[:1], y=y[:1], mode='lines', line=dict(color='red', width=2))]
+)
+
+# create frames for animation by iterating through the data
+frames = [go.Frame(data=[go.Scatter(x=x[:i+1], 
+                                    y=y[:i+1], 
+                                    mode='lines', 
+                                    line=dict(color='red', 
+                                    width=2))])
+          for i in range(1, len(x))]
+
+# add frames to the figure
+fig.frames = frames
+
+```
+
+A button or slider needs to be added to play the animation
+
+```python
+fig.update_layout(
+    updatemenus=[dict(
+        type='buttons',
+        showactive=False,
+        buttons=[dict(label='Play',
+                      method='animate',
+                      args=[None, dict(frame=dict(duration=50, redraw=True), fromcurrent=True)])]
+    )]
+)
+```
+
 ### Helpful References
 
 * [Plotly Express Documentation](https://plotly.com/python/plotly-express/)
 * [Plotly Graph Objects Documentation](https://plotly.com/python/graph-objects/)
 * [Python Plotly Tutorial](https://www.datacamp.com/tutorial/python-plotly-express-tutorial)
+* [Animated Plots in Plotly](https://plotly.com/python/animations/)
 
